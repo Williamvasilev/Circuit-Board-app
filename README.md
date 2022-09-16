@@ -4,4 +4,5 @@ pixels corresponding to the colour of the pixel you clicked on and it will highl
 or the same colour as the pixel you clicked on. You can also have all the components in the image numbered from largest to smallest depending on the pixel size and you can 
 make the blacn and white images look better with the use of noise reduction.
 I used a pixel reader, pixel writer and a hash table to connect and find the colour of the pixels.
-I also used a file chooser to pick an image.
+I used a file chooser to pick an image.
+I also used a union find alogorithm to find a root pixel and makes all other pixels around it connect to it to make one whole set. This is how i changes the colours of the components in the images.
